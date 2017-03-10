@@ -1,55 +1,95 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Daniel Lu</title>
-      <link href="https://fonts.googleapis.com/css?family=Dosis:300|Dancing+Script|Roboto:300|Lato:300,300i|Raleway:400,400i,500,700" rel="stylesheet" type='text/css'>
-      <link rel="stylesheet" type="text/css" href="css/style.css"/>
-      <link rel="shortcut icon" href="assets/img/logo.ico">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      <script src="assets/js/typed.js"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-      <script src="assets/js/app.js"></script>
-      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
-      <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-  </head>
-  <body>
-        <div class="logo">Daniel Lu</div>
+	<head>
+		<title>Identity by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
 
-      <div class="wrapper">
-      <div class="row">
-        <div class="col-sm-6">
-        <img id="photo" src="img/profile.jpg"/>
-        </div>
-        <div class="col-sm-6 about-container">
-          <div class="about-title">I'm Daniel, a <noscript>programmer</noscript><span class="descript-tag"></span>
-            <script>
-              $(function(){
-                  $(".descript-tag").typed({
-                    strings: ["programmer.", "problem solver.", "tech enthusiast.^1000"],
-                    typeSpeed: 10
-                  });
-                });
-            </script></div>
-          <div class="about-info">
-            <p><a href="http://bc.edu" target="_blank">Boston College</a> student, class of 2018, originally from the <a href="http://wikipedia.org/wiki/San_Francisco_Bay_Area" target="_blank">Bay Area</a>.</p>
-            <p>Worked this past Summer (2016) as a UNIX Engineer Intern for <a href="http://putnam.com" target="_blank">Putnam Investments</a>, and will join <a href="http://deloitte.com/consulting" target="_blank">Deloitte Consulting</a> as a Business Technology Analyst Intern this upcoming Summer (2017).</p>
-            <p>Some of my interests include sports, especially baseball and basketball, quality foods, traveling, fitness, brain teasers, and stocks.</p>
-            <p>I'm seeking to constantly learn, to pursue my interests, and to surround myself with talented and driven individuals that both challenge and empower me.</p>
-            <p>Feel free to check out my LinkedIn below or contact me!</p>
-          </div>
-        </div>
-        </div>
-      </div>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-      <section class="social-icon">
-        <a href="https://linkedin.com/in/daniel-lu" style="text-decoration: none;" target="_blank">
-          <img title="linkedin" src="img/linkedin.png"/>
-        </a>
-        <a style="text-decoration: none;" href="mailto:ludg@bc.edu">
-          <img title="email" src="img/email.jpg"/>
-        </a>
-      </section>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Jane Doe</h1>
+							<p>Senior Psychonautics Engineer</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="#" class="fa-twitter">Twitter</a></li>
+								<li><a href="#" class="fa-instagram">Instagram</a></li>
+								<li><a href="#" class="fa-facebook">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
 
-  </body>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
 </html>
