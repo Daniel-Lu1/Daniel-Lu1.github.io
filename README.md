@@ -1,2 +1,2 @@
 ## Welcome
-Personal website for Daniel Lu...
+Personal website for Daniel Lu
